@@ -1,13 +1,16 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
+import PhoneAndroidOutlinedIcon from '@material-ui/icons/PhoneAndroidOutlined';
+import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
+import PermIdentityOutlinedIcon from '@material-ui/icons/PermIdentityOutlined';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +32,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <DescriptionOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='First Name' secondary={user.firstName} />
@@ -37,7 +40,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <DescriptionOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Middle Name' secondary={user.middleName} />
@@ -45,7 +48,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <DescriptionOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Last Name' secondary={user.lastName} />
@@ -53,7 +56,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <WorkIcon />
+            <EmailOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Email' secondary={user.email} />
@@ -61,7 +64,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <PhoneAndroidOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Phone' secondary={user.phone} />
@@ -69,7 +72,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <HomeOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Address' secondary={user.mailAddress} />
@@ -77,7 +80,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <WorkOutlineOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Occupation' secondary={user.occupation} />
@@ -85,7 +88,7 @@ export default function Info() {
       <ListItem className={classes.item}>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <PermIdentityOutlinedIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary='Username' secondary={user.username} />
