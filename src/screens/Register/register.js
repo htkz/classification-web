@@ -154,7 +154,7 @@ export default function Register() {
                     setEmailError(false);
                   }
                 }}
-                helperText='Incorrect entry.'
+                helperText='Format: aaa@bbb.cc'
               />
             </Grid>
             <Grid item xs={12}>
@@ -196,7 +196,7 @@ export default function Register() {
                     setPhoneError(false);
                   }
                 }}
-                helperText='Incorrect entry.'
+                helperText='Format: 123-321-4567'
               />
             </Grid>
             <Grid item xs={12}>
