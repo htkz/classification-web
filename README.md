@@ -9,6 +9,7 @@
 ```
 git clone https://github.com/htkz/classification-web.git
 cd ./classification-web
+npm install -g react-scripts
 npm install
 npm start
 ```
