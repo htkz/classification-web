@@ -36,12 +36,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     width: '100%',
     display: 'flex',
-    height: 500,
-    marginTop: '50px',
+    height: 'calc(100vh - 64px)',
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`,
     minWidth: '200px',
+    paddingTop: '48px',
   },
   container: {
     display: 'flex',
